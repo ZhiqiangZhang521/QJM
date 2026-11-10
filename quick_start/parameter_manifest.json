@@ -1,0 +1,2034 @@
+{
+  "format_version": 1,
+  "experiment_seed": 2026,
+  "bundles": 44,
+  "unimodal_encoders": 88,
+  "mappers": 44,
+  "qjm_heads": 44,
+  "folds": [
+    {
+      "dataset": "own_dataset",
+      "training_direction": "image_train",
+      "fold": "S01",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/image_train/seed2026/S01",
+      "calibration_strength": 0.7,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S01/config.json",
+          "bytes": 2159,
+          "sha256": "dbfe27be5e4c35e6b6d599fad23e1feddf0ba1871d479ce491cdcc34f9f84716"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S01/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "d12664dca63435ced5961abcd2b431b7266a9358facc14fc3ee0e1534410aee0"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S01/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "2238cc72e04d93028503ea51953063df4e73b33b90296d5838e881deb3cbe113"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S01/mapper.pt",
+          "bytes": 43033,
+          "sha256": "5faf2baf46c8029cdda77d2e8b5d873eab9c5cef5df94490c32b4393a2335249"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S01/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "63e6b0bd45457fb0a5b600cf0448c8f748696255cf16bbf7144ae5248267aece"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S01/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "894eceb534b400687d6095c5d0fd590dedd6d076aa29a7560850ccebded1a620"
+        }
+      ]
+    },
+    {
+      "dataset": "own_dataset",
+      "training_direction": "image_train",
+      "fold": "S02",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/image_train/seed2026/S02",
+      "calibration_strength": 1.1,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S02/config.json",
+          "bytes": 2159,
+          "sha256": "58c0096ff2363983d3bb1c770014035f0e333b6c7d49ff183d97a212c4192e24"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S02/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "8398635663caaf1446188b64878514692b1e24c59f9ef4bb774b13f204d89b1f"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S02/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "41474d21aaa49e78e5fb36586b3a9194c1b5a0331f8f2c05406c8c66e0c20589"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S02/mapper.pt",
+          "bytes": 43033,
+          "sha256": "d0f6549ed55ee1ffab088d2840491888ffb4dab627f057684e58edf9d1c66311"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S02/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "f9bf917ef263ad74e6373609668d39ae475ded92f9c1f9fdfc75041660eafe03"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S02/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "8e04bd4e00048a4925d999358ef676626411e31a964a85835c3ba3a9d6cfd8bc"
+        }
+      ]
+    },
+    {
+      "dataset": "own_dataset",
+      "training_direction": "image_train",
+      "fold": "S03",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/image_train/seed2026/S03",
+      "calibration_strength": 1.0,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S03/config.json",
+          "bytes": 2159,
+          "sha256": "6fe56458b192e2f9e01e034dcc6e452ad6a3efd1e7cee8101777d56145ccb524"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S03/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "17fb1400e719759d04768ff46c9182ed209c3b9cd7b737bd3539334090414703"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S03/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "df730de1c42288ba4631c695b9e9d6167415301116be94ddea5eec7f358a16e8"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S03/mapper.pt",
+          "bytes": 43033,
+          "sha256": "378e32a3a70cc135d9e72acb2ceb5569698e5dc769d5ba766ae80cf204d0f886"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S03/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "47c9f6a9bdf077fb35f30d237ec407a522fbb2022ba951d6d0044462551c4d96"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S03/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "34f04881ed252349c4fbad8cf8b2f918088a049381313d141c2bb517609901c9"
+        }
+      ]
+    },
+    {
+      "dataset": "own_dataset",
+      "training_direction": "image_train",
+      "fold": "S04",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/image_train/seed2026/S04",
+      "calibration_strength": 1.0,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S04/config.json",
+          "bytes": 2159,
+          "sha256": "c63170b994c0359e101dac62addd9ac898766105ac79197c6211d5d63f6fe3c5"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S04/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "931a24ecc5d535385eabd15464d9c22c7d6f54ef6c60ec8fa3cce90dbe80ebb2"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S04/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "7cf1368b62f755bd2ceff0d88c2e5b8a6067c4b4442fead7878890c5980b01ff"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S04/mapper.pt",
+          "bytes": 43033,
+          "sha256": "4c64e199718c83ceb28b6ada74df78ba6604f67e450648758a6a7c07a8eb8ee6"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S04/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "aab803a6e90fc84a15be65f096b93abaf1d8740afdf8948884bcd59e3f21540d"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S04/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "4f21df40cf46ca3e13ea5ed8d7dab88fc9bcf0d265a130c15c112e2cd282b6a5"
+        }
+      ]
+    },
+    {
+      "dataset": "own_dataset",
+      "training_direction": "image_train",
+      "fold": "S05",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/image_train/seed2026/S05",
+      "calibration_strength": 0.7,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S05/config.json",
+          "bytes": 2159,
+          "sha256": "aa83885c86403535fe3426a7740ee9170313c813aa79d68db8d5510636ff6e03"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S05/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "47eabfd287bf376d49f6fbd72e0ce06f2d5fbc55fcf1004b463f833c3ce321ec"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S05/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "455a7dbd071c2be9096f4d14663b42cc62c7d675013a0602bb1fa9e75f8a1864"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S05/mapper.pt",
+          "bytes": 43033,
+          "sha256": "3bdd797582c4f928cf16cdbb997816b0638aa63b6e6fd49198366ba3e2acbdd5"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S05/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "c4571c5e00ddeefb921af608c6112abef1a2c4a0014524aeb9dc16f55805d362"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S05/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "6c4e1d8c26d4417a2ca612eba7dec2a7086765fdecdb6711ed9f83a8c8c82dd3"
+        }
+      ]
+    },
+    {
+      "dataset": "own_dataset",
+      "training_direction": "image_train",
+      "fold": "S06",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/image_train/seed2026/S06",
+      "calibration_strength": 0.6,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S06/config.json",
+          "bytes": 2159,
+          "sha256": "427dc73ef1fa4a88467c671b3aeb7edace538fa0dc129b5406869538279f0527"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S06/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "ae961c34944b5906b04072368a2ea8277a3d8489a2839a58d7cd3ac7e16af231"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S06/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "807edf651a406371c63ee179cdb166abfabea603af12c83806ae082b51e54857"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S06/mapper.pt",
+          "bytes": 43033,
+          "sha256": "1e5735b2a083dd6fc0dd575525cac6ac256dfd200f2c2c9b1251d3d5c3c0a58e"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S06/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "ba1681467b39c486936fdb685dc11d1883ec30d90838db433de86077432723a3"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S06/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "209ce917ffb0bfc03450e5f8281557ba1e9279bef0fe8c2a47eb61b775a9a92e"
+        }
+      ]
+    },
+    {
+      "dataset": "own_dataset",
+      "training_direction": "image_train",
+      "fold": "S07",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/image_train/seed2026/S07",
+      "calibration_strength": 1.0,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S07/config.json",
+          "bytes": 2159,
+          "sha256": "b02ba9fd1d7e91332131b97d98f1d7aeb70876b4d96ff52dd7088ea8fa1744aa"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S07/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "072378d516ed448e5122d2521d59039519079b49306b5dc74ed9128a59c5c8f7"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S07/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "61d8112691e6dc471f69cbd388af9ce098ad7aa4f9a364b3ae7b5ce241522914"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S07/mapper.pt",
+          "bytes": 43033,
+          "sha256": "7910dcdd79698b2137ad5e1da5279f1e06d259a9bdb3af2f6a00c41563ecba86"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S07/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "8db267b37f44e69c669f6a8ff103f7ff6602716191d1f0536ae49755d768b4f4"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S07/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "bec4e944c6ee97a2a5e7cdd0ee407ac28856abcbd49bc13d1928705053ccb3b0"
+        }
+      ]
+    },
+    {
+      "dataset": "own_dataset",
+      "training_direction": "image_train",
+      "fold": "S08",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/image_train/seed2026/S08",
+      "calibration_strength": 1.0,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S08/config.json",
+          "bytes": 2159,
+          "sha256": "d771f524bd3760581423f480b08b2a7b1dee3e3af5c6630b2ea6bd1b6f8dfb26"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S08/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "04f54524565cee6f8068b9d8dce3f50570e6b52e1c554622a05a87fb23e8d0d7"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S08/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "f8df6bdcaed06f3c117c2d1142885db321e1995ad5db7569555ce8d96f8666d6"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S08/mapper.pt",
+          "bytes": 43033,
+          "sha256": "596738ad658b46c1920853731366a5d1e4923f660b1ab0ac06a790b164577449"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S08/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "ff50555e8d756fab93c5da0dea3a4f6b9cc3cf3223a4f3034e529022f854215a"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S08/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "1633765bd10e17cb58e0d3733739ef8249f4f16208c829f249306ebbcaad34d9"
+        }
+      ]
+    },
+    {
+      "dataset": "own_dataset",
+      "training_direction": "image_train",
+      "fold": "S09",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/image_train/seed2026/S09",
+      "calibration_strength": 1.1,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S09/config.json",
+          "bytes": 2159,
+          "sha256": "ea0df7846eb83d786833f96c256910f14918b9c93adf826400bed93219d9c9e0"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S09/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "8d7957f798ff4bc62be10fb483c59a6137ab54c70d90211aa99441d4aaa33929"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S09/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "f4df30048638447f7dc6786440b6a6e146a1e1778f89af14a0ec34faf55ea4a3"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S09/mapper.pt",
+          "bytes": 43033,
+          "sha256": "84e711a62c99bb43d8a8363e6cc597d3da3ee87e3f19bc1bd188ab940b986882"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S09/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "ce7882d2a45f875bf68b982d0f4269d915fa38dfad672727841141ebd7471d08"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S09/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "8b23c89b455bb80505c1f66c555a80a4bbfa8a8e3ec53ede2ad3c3bd42a95748"
+        }
+      ]
+    },
+    {
+      "dataset": "own_dataset",
+      "training_direction": "image_train",
+      "fold": "S10",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/image_train/seed2026/S10",
+      "calibration_strength": 0.5,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S10/config.json",
+          "bytes": 2159,
+          "sha256": "2872d1affb3065130bf337cefc745a131441dc73036961fe1537bfd9dd185e2e"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S10/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "3d7f6171e3cb1d09d368792f7f9b71af1530e88ecb9ce711c655b178ca1360cc"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S10/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "bb936d49d1fdea142bacb93870843a4a6bc5ac5d6921776bfc5fc0905c96755e"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S10/mapper.pt",
+          "bytes": 43033,
+          "sha256": "6a8163348a218f333ec79bad902611bcb2326ef035528cbbcec02b102a030ec4"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S10/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "655dfc514e92bb95f387f2d8b705bf5886553f346eaf76d403da6288c429c9c0"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S10/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "c49c1c4c0c7169bd663b87b8f52470869dcc63b55da1e1149f8da7e84ae563d1"
+        }
+      ]
+    },
+    {
+      "dataset": "own_dataset",
+      "training_direction": "image_train",
+      "fold": "S11",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/image_train/seed2026/S11",
+      "calibration_strength": 1.1,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S11/config.json",
+          "bytes": 2159,
+          "sha256": "24f4a9b26910b18b10f17249402b94920f195fbc40af84bd13964acfb089e774"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S11/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "c614dab69450da9995344274bcb44e4138775f0b2a10b45c52d3718fdd13074d"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S11/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "54df41a14450cafcd9e56d1a8fcfa9ea4ae557cc76c35fcbbb765cf35e084930"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S11/mapper.pt",
+          "bytes": 43033,
+          "sha256": "1e513c2c4c75e2c5c85fdb1f72ba85b5dae8a44e00bf05c302b576d7e6e38f33"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S11/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "41012e10e600282122ca1f04f698f9b5752dc2273db163bcf0fd79d3ee9504d3"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S11/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "b2ad5d4de89c6bf7f6415018973a9f557fec9c9b4e1f1ad2ecc00adc7e10faa7"
+        }
+      ]
+    },
+    {
+      "dataset": "own_dataset",
+      "training_direction": "image_train",
+      "fold": "S12",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/image_train/seed2026/S12",
+      "calibration_strength": 0.8,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S12/config.json",
+          "bytes": 2159,
+          "sha256": "dbcb980b20e48f1f1ca3a91709cdb300471d673849fd281f2023caf6c8c9d322"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S12/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "48e3a10b553fd836214c2ed3cda5ee86f364b54b3c511035590a003654465d0d"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S12/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "d989d6360195928f30791a1b6d8e7a07c250aba2084cd09d5be5cf6dc0d4e9b3"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S12/mapper.pt",
+          "bytes": 43033,
+          "sha256": "a86f793c6736eb83cc93b373aee92202ba8e3518c3bcd251cc72de882b9c488e"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S12/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "294f4527ac17428c0fe370ce4c9d756b4413fde58ba16a06c9bbba6016f85a8a"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/image_train/seed2026/S12/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "0c1132eb4941ecc27d4075558639eaa48e84de1b21afae19eda9dcf8da18f019"
+        }
+      ]
+    },
+    {
+      "dataset": "own_dataset",
+      "training_direction": "video_train",
+      "fold": "S01",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/video_train/seed2026/S01",
+      "calibration_strength": 0.8,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S01/config.json",
+          "bytes": 2159,
+          "sha256": "09f08b96b82c7709f0ccd9cdf8b15a8367b58632b9d94eca29cf8b03e5bba43a"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S01/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "c0729e5e8016950cc8490e3abe18065608003a34fa1b01b4ce31ab6d72d2bc34"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S01/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "261f9d3add0975d75d2be2135ddd6b8a456b1ef33266771a94a5720abcb2cc0b"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S01/mapper.pt",
+          "bytes": 43033,
+          "sha256": "062ebeca54a129504075194a6230bc6c542e08294f2f032b1603cf9885142f02"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S01/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "890c01eb9041a4e0b4b1325da17b47aa88d3cdee15c8f412fddc99772f27b796"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S01/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "431d1dd7bd7903cba2c4d6fdb35019a6108e0750a8ca2798f3ca00a97b7d3819"
+        }
+      ]
+    },
+    {
+      "dataset": "own_dataset",
+      "training_direction": "video_train",
+      "fold": "S02",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/video_train/seed2026/S02",
+      "calibration_strength": 0.4,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S02/config.json",
+          "bytes": 2159,
+          "sha256": "e3d4f188a76c72631c11a46b4578d05dd532e0ceee54ecf91541aad841562435"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S02/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "f5176b07296139fdf400973de2e90e8a647de20ed99993290e5c0a1e01d566c4"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S02/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "984bcde5ce85ac3832b712d3cf7dc5684bada28d30dc75547d13c6e69fa7ba21"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S02/mapper.pt",
+          "bytes": 43033,
+          "sha256": "716be3bfc3db99cec053df42e9f9a58523e7c0497912a83649f5ebf51a7454c2"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S02/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "ec9406bc7a164e637c6f26ef8a9d4dc12cc95b2c596303d864640ee805fca61d"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S02/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "2d41385be7b8f21a1df40badfc41662efcf1a7cdaed2a69e52ad0da5ba0c9560"
+        }
+      ]
+    },
+    {
+      "dataset": "own_dataset",
+      "training_direction": "video_train",
+      "fold": "S03",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/video_train/seed2026/S03",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S03/config.json",
+          "bytes": 2159,
+          "sha256": "5945fa8827e57e93a0b3af993d7ea0f7fdc9dfec809d460eda942c988da30a83"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S03/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "96b52f000de975e8c40f529607616b6cb268541d71cf3bac85d5bb3556c6a417"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S03/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "b6801ff95b2363d7ab62dac8bc1dff8353fa942b212b80816b8461c8cc1abab3"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S03/mapper.pt",
+          "bytes": 43033,
+          "sha256": "8d0fefb3b9d2159cde3bb19a8467eb839a4ed19d7049bba2650f4a1eb8288e51"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S03/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "ea058ac0a9d10cfc960bb23ba7e4ab00b89cfe5499d74fe96ddba5f4f4f8075e"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S03/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "024e744cc0488d78bdc5238196bdf28162bf4a198ea5f155c260739b415ba462"
+        }
+      ]
+    },
+    {
+      "dataset": "own_dataset",
+      "training_direction": "video_train",
+      "fold": "S04",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/video_train/seed2026/S04",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S04/config.json",
+          "bytes": 2159,
+          "sha256": "163a31c233682ac876411feabfa45cc969899bd3db98b1685ede4f5e7ab6cdfd"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S04/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "b448c1205740db4655e818b331f77e7db2dd48bb8ce582828836c4dd2f3d568d"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S04/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "d69037ffe75e0d1e4a8f9a188c981afe0be2d5bbb4d176af8a57b21ed702c510"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S04/mapper.pt",
+          "bytes": 43033,
+          "sha256": "5c8f5785e7565eebd346d273edcecdeba3f2fd6490ebffc7ca30e9ca5426b0f6"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S04/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "bf19fa869d019d86810413e417159f2ed83777c02b5713034f7129556f6b0423"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S04/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "6fa200ba07cdf6d85e8a80b076107de53cf5b37e8979fdb8f8547689b7daac81"
+        }
+      ]
+    },
+    {
+      "dataset": "own_dataset",
+      "training_direction": "video_train",
+      "fold": "S05",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/video_train/seed2026/S05",
+      "calibration_strength": 0.4,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S05/config.json",
+          "bytes": 2159,
+          "sha256": "0adb37af5fab0c3ded4b8554f9ad384533da0121f209360dc390337b470b35b6"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S05/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "48499eb432a245a82a8fd4216ab70d43cd99b89e0f845f13f4b51db7e3993e2c"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S05/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "73e05c9e60e61d619ed0314392d54034a1cee465d3a9533e992ec316e58100ab"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S05/mapper.pt",
+          "bytes": 43033,
+          "sha256": "0fb52f54678058e5812ce15ca292ff763f27eebd4801d5c4e878b175aed86584"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S05/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "48695dd2308f4d739a06c4d2b804dbedb4de93b907134768ac08d4f1438b1ca1"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S05/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "e42d2907478dbe38112ecb9524c3c73cdc2bb6bbc3915d57e862cf08ae069383"
+        }
+      ]
+    },
+    {
+      "dataset": "own_dataset",
+      "training_direction": "video_train",
+      "fold": "S06",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/video_train/seed2026/S06",
+      "calibration_strength": 0.8,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S06/config.json",
+          "bytes": 2159,
+          "sha256": "6d58fd2f4334ea392250283854ee3a12fd5af9b495bd93d038bcb16696e74426"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S06/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "1fb258ee522e212c8a6ecd13e8ed88b2bdf8694e77bf8460b0224e818ee2ad3a"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S06/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "ff0945672465e652ed102a3dd51957180d1f9b54b8132fcc9e033ba21406b92e"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S06/mapper.pt",
+          "bytes": 43033,
+          "sha256": "633449d72f187e1f5ef9eff23b08f39faf91a36cc46ff5d14f9892390c980015"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S06/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "cae0808c8175bb3d34e2f99b523adac218f7d477d9c91a8a0d99ded33f59fb0a"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S06/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "d5e5a444eb954a4594c04bff11216e4798512c853e05df837e37d608bf0b12fb"
+        }
+      ]
+    },
+    {
+      "dataset": "own_dataset",
+      "training_direction": "video_train",
+      "fold": "S07",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/video_train/seed2026/S07",
+      "calibration_strength": 1.1,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S07/config.json",
+          "bytes": 2159,
+          "sha256": "7862c78b9265d4a1448adc3ae7181ffb60b9626ef37a1ae8084f1c562664c007"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S07/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "064ebb54857d79ca97d7e96d805eb47557e821ce06ea8963e35e309a9d21d673"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S07/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "b36157fa26f2c9f92c8b57c8b91d9ed2fc0c3408c694162f8e7ef7e9109fa04e"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S07/mapper.pt",
+          "bytes": 43033,
+          "sha256": "868d291c667ef4d9b4cbfd965c3b21cd6e64373f65a29535fbb7662d67d0cb04"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S07/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "d66d2b1d82f9a9332d5fbc218ef4e670aa8e9320cf0a2c3e719994e61be39385"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S07/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "aaa3ab04816a28044bdf02f79c3b8019f4a82c8b4f56a96b9aa705230dedfdc7"
+        }
+      ]
+    },
+    {
+      "dataset": "own_dataset",
+      "training_direction": "video_train",
+      "fold": "S08",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/video_train/seed2026/S08",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S08/config.json",
+          "bytes": 2159,
+          "sha256": "c15362433e7ee4f31e90c546813078081ff50cc1a5122368cc62884ab37072be"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S08/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "bd84e57449162551b4d56d8e2ba7ff1f3173f86f90fc9dd7470529d3d5b19375"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S08/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "5cf53ed2e6557c20382d19d0e5a81651e2eef128411a297b61837048b510f6a1"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S08/mapper.pt",
+          "bytes": 43033,
+          "sha256": "5fc4dcab4f1494c0ce9fe273396dce37b3dfff95c5b163476c49b8198d2190ba"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S08/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "8796d9d030aa68ebb32240ebdaf3b8c3a86d1e2e1ead87348cf75f2ef5307066"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S08/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "6998d3da12399efe74de775974ab96407229d1aac2c297e65a0db78f321b9a8d"
+        }
+      ]
+    },
+    {
+      "dataset": "own_dataset",
+      "training_direction": "video_train",
+      "fold": "S09",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/video_train/seed2026/S09",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S09/config.json",
+          "bytes": 2159,
+          "sha256": "5637cb708e9ca65aa2d0bbff32bce3cbe4a0962ba24a2c1f6372183ed1f5064f"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S09/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "bd8b322b3ed431fabfc51656ccc8084eef3d637b41922dd8780bcb40ffa36eb7"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S09/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "33a9d6a5c9c9f96736ef233cff69b1ab32bf3691c282411740503c062f3d1564"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S09/mapper.pt",
+          "bytes": 43033,
+          "sha256": "402b75987759dec7aca2af96d39a4cfba2364ce68990ea42ba60f966af3c888f"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S09/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "a2df620a128c5990c0508b6da25b29c184e36b61912c95bb70bd9a5938c4f5f8"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S09/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "e3e40e7aaed1354f0b2a3c52cef867c18cf79b90bc5a45a700cc3a82a8fe72fe"
+        }
+      ]
+    },
+    {
+      "dataset": "own_dataset",
+      "training_direction": "video_train",
+      "fold": "S10",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/video_train/seed2026/S10",
+      "calibration_strength": 0.7,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S10/config.json",
+          "bytes": 2159,
+          "sha256": "c4b5de6ce0e11bbd9a5a2bf143d75ed735465617a190c3cddff273bd0aad3c6c"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S10/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "2bb810cdd451ab4cd5e18ca087421dcfc913fee8181a57d47e720e3b013e81ca"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S10/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "126ebf9a150f34eb5f27598cba2726c942340ef52f6d3fb94c358db5c1047073"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S10/mapper.pt",
+          "bytes": 43033,
+          "sha256": "15e1955448007ab9807e073dc6e6a173f44827d1c6ae080c672c91af1cd4de67"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S10/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "9adcf043960803cc6bae689a88b13a3fdfd1cf5d25705db77044eab226a2f36e"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S10/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "b94921d9da100ecaabb1e5c133c79f01bc2733f0ae78cf0da19d34cffb89dba6"
+        }
+      ]
+    },
+    {
+      "dataset": "own_dataset",
+      "training_direction": "video_train",
+      "fold": "S11",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/video_train/seed2026/S11",
+      "calibration_strength": 1.0,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S11/config.json",
+          "bytes": 2159,
+          "sha256": "01bb94d047dbaac54bda6871603d4ea4fff554d5564162d2ed2e85c1dad13b0a"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S11/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "e49216c88155eca2e3303618e04f6681dc7a968a8af81cb27740ce34aac7e4f5"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S11/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "d94668f9d30ea800c0e0767e17b800cdc8032b19ce68f2756865f4c2ab4aa1d6"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S11/mapper.pt",
+          "bytes": 43033,
+          "sha256": "d7a8866d6c3a5ebda3ebb9f5b3ed4cb26dd2a4c281ad8af94cc3600461a6bfdf"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S11/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "374043bac3f9b2d49bf92574c97d89a5680e14e4190f82298e4a46f97e7656d0"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S11/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "b40955c80e69c74d7879e9c410a224d7118503e437d80bbdc0a6c2bd8f1d678c"
+        }
+      ]
+    },
+    {
+      "dataset": "own_dataset",
+      "training_direction": "video_train",
+      "fold": "S12",
+      "seed": 2026,
+      "folder": "quick_start/weights/own_dataset/video_train/seed2026/S12",
+      "calibration_strength": 0.8,
+      "parameter_counts": {
+        "eeg_encoder": 232596,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S12/config.json",
+          "bytes": 2159,
+          "sha256": "25adb2307aba2035c01fa15cd67513c34ea209091d365e3d236c5a475828a6c5"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S12/eeg_encoder.pt",
+          "bytes": 935039,
+          "sha256": "807b9503b8219e6b64e1fd9df3d2d451fd24c11fc067dd01aa12b77dce9f9f57"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S12/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "e6246627f28871c4cf4ede48686a0cdca12faea61a08c6889fda8458bfe08feb"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S12/mapper.pt",
+          "bytes": 43033,
+          "sha256": "8519a7fdea3380b6102e9a9dc0f27b695eef861f47d50538098bdccc64861913"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S12/normalizers.pt",
+          "bytes": 115017,
+          "sha256": "bc6946841645c8a90b58c2cd0ff2676f932660d8e440dbbff719341a88fd6b15"
+        },
+        {
+          "file": "quick_start/weights/own_dataset/video_train/seed2026/S12/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "c3ed5d61dfabcea7802795d8eef56a270932a43a18130916ddafafd26bb47dbe"
+        }
+      ]
+    },
+    {
+      "dataset": "SEED-VII",
+      "training_direction": null,
+      "fold": "S01",
+      "seed": 2026,
+      "folder": "quick_start/weights/SEED-VII/seed2026/S01",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 233407,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S01/config.json",
+          "bytes": 2245,
+          "sha256": "175a0c3f2e336fd1e2dd549ece75fbd242851189e243da55ac9bddcc462a8a67"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S01/eeg_encoder.pt",
+          "bytes": 938303,
+          "sha256": "14b692a2f0f1acd768b83039a47d49c4b5f95943334f12f0479f5703498d6e6e"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S01/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "18b968e80484c5316a54e6af6146c9027f2134f6c21db8383506faaa8b523d0d"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S01/mapper.pt",
+          "bytes": 43033,
+          "sha256": "d5c457d13c1fdb1fca2bd0ce91f7403d25272b503dec1e74f6c6f4790074c32b"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S01/normalizers.pt",
+          "bytes": 115529,
+          "sha256": "6d36103db83ecca6dc6712b7f2740c8f89ac4a6b428ad791d5ac687b7fd03818"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S01/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "1d888b32a831d9d685d2133a80fdf4b6e7f67a361c41b6e5b6930bc9375a2afc"
+        }
+      ]
+    },
+    {
+      "dataset": "SEED-VII",
+      "training_direction": null,
+      "fold": "S02",
+      "seed": 2026,
+      "folder": "quick_start/weights/SEED-VII/seed2026/S02",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 233407,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S02/config.json",
+          "bytes": 2245,
+          "sha256": "6889c5ec313b4fed1e208a32824860c309d3f5be7ca24773895157efb43548e9"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S02/eeg_encoder.pt",
+          "bytes": 938303,
+          "sha256": "0c3546fc55ca858ab5c89724c7e51383d286c796ecba5108b9d93e95838f329e"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S02/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "57dd9f862fc065f022a6945a4a15bbe3842f847cf2f7919c93ecce954272fe36"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S02/mapper.pt",
+          "bytes": 43033,
+          "sha256": "6770a424f83c9530d6994f9dc028f5b7b4fd6f1c6f3c540e6b956b95379f7c11"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S02/normalizers.pt",
+          "bytes": 115529,
+          "sha256": "7aca7f0d365c6bdda1e47085e26c64b4634310551a30a6002be827f01af0f10e"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S02/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "dc94276b1b760f0dd62119d54c2117ff2553f24c0fbfb05f5041017db616dee2"
+        }
+      ]
+    },
+    {
+      "dataset": "SEED-VII",
+      "training_direction": null,
+      "fold": "S03",
+      "seed": 2026,
+      "folder": "quick_start/weights/SEED-VII/seed2026/S03",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 233407,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S03/config.json",
+          "bytes": 2245,
+          "sha256": "fc7a4773daf53febf95f503b65bfe03dbfc260f70bccdb5cf32ac971a2144f5a"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S03/eeg_encoder.pt",
+          "bytes": 938303,
+          "sha256": "6ccb2d5b3cc236d776f20589e5a4e9c9036e6aaec7c5286bd759ac98eb770574"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S03/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "b70e3ee6afa9993eb08fcf21e73ebc2bc10a0b8168da119e64482b011ef6bf9e"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S03/mapper.pt",
+          "bytes": 43033,
+          "sha256": "a2270470c4bb63e12d479eeb7f5c0445ce51a0c60f3874e38e4f2ff6ed891dc9"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S03/normalizers.pt",
+          "bytes": 115529,
+          "sha256": "87b579fddc138cb9ab37bfc6de388b84ff98ef036e5bc601992c1f7d3659259b"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S03/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "6f287c7871c2524d00d93f17448602c9498f7cee638a60ea796e7075232aa065"
+        }
+      ]
+    },
+    {
+      "dataset": "SEED-VII",
+      "training_direction": null,
+      "fold": "S04",
+      "seed": 2026,
+      "folder": "quick_start/weights/SEED-VII/seed2026/S04",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 233407,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S04/config.json",
+          "bytes": 2245,
+          "sha256": "c01a93a290eec0dbd520662e38b335e07394fd588c2913a4ead6a3e656fec070"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S04/eeg_encoder.pt",
+          "bytes": 938303,
+          "sha256": "31654f1ac224fd949263c9f5f192898af91d5243e5964e1b77446322ea36a93b"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S04/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "e00f70b459fef0d36bab885d13e004f6e58725d04dd3c187bd51254dd25fc7ed"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S04/mapper.pt",
+          "bytes": 43033,
+          "sha256": "5c5654d3dc58be14dde3046250e1bcdc7eca376001a3f6290681b03604526d26"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S04/normalizers.pt",
+          "bytes": 115529,
+          "sha256": "a0f6daf7631c237213e527af610b508a9e781c2e057ed4c57d2425d201889ab6"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S04/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "ed8aaa4f4bc55fd9e59d188a362ff1a8594f32686782b467e3976214161b8cfa"
+        }
+      ]
+    },
+    {
+      "dataset": "SEED-VII",
+      "training_direction": null,
+      "fold": "S05",
+      "seed": 2026,
+      "folder": "quick_start/weights/SEED-VII/seed2026/S05",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 233407,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S05/config.json",
+          "bytes": 2245,
+          "sha256": "8efb245f8605e7190086e9b5093f460498d51ccf831eb3a0648fd068db0fedcf"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S05/eeg_encoder.pt",
+          "bytes": 938303,
+          "sha256": "49c97b29c2a52b64056cfffa180f49da7558b3f60d68d55f192a45d7ea62d035"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S05/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "eca2bf6f813acdaf9d723536189795c8b18b6daad9e233952fddf74db947a764"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S05/mapper.pt",
+          "bytes": 43033,
+          "sha256": "af69f5a3934d6de12ed7e71f08ed963d40644bd6f31c846935eb3cf74abf29a1"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S05/normalizers.pt",
+          "bytes": 115529,
+          "sha256": "aed2b55671a00b20f6a45d4c340a493e115210e652ca65488bf6f5c853df00ea"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S05/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "5b1677e32a4ca82bfd486b2a510200ed467aab92cd0a8acea9e19676851f2f31"
+        }
+      ]
+    },
+    {
+      "dataset": "SEED-VII",
+      "training_direction": null,
+      "fold": "S06",
+      "seed": 2026,
+      "folder": "quick_start/weights/SEED-VII/seed2026/S06",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 233407,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S06/config.json",
+          "bytes": 2245,
+          "sha256": "724c2793798740be0569703f5510e8482e1bf67d0d893a455671713663a591a7"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S06/eeg_encoder.pt",
+          "bytes": 938303,
+          "sha256": "dc0252d66ae853c611de6ab0b817980e85ff55623195172002b039c4e8b43720"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S06/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "8025c8e3198237c4c33250cc18d47296473f23210dd9e99a8083d5af9d1ec842"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S06/mapper.pt",
+          "bytes": 43033,
+          "sha256": "f93f6d5435738348cbf17335058c54f33691350c7f5232a361a3fe390837dda7"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S06/normalizers.pt",
+          "bytes": 115529,
+          "sha256": "324b5c2fceccf445595dee557bf12c69f195986c5943b13cc074b5862a896946"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S06/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "1e15b3cd33f2aa874c947bab6f6f83a1ab560bfb189454e00adeabed220eb044"
+        }
+      ]
+    },
+    {
+      "dataset": "SEED-VII",
+      "training_direction": null,
+      "fold": "S07",
+      "seed": 2026,
+      "folder": "quick_start/weights/SEED-VII/seed2026/S07",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 233407,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S07/config.json",
+          "bytes": 2245,
+          "sha256": "cda94496c344e701c00978bbdb39ce8fd04bafc93d6e4083377b541c272fbb48"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S07/eeg_encoder.pt",
+          "bytes": 938303,
+          "sha256": "b6278650e4ab77c591aaf54a5e44e7707a065549c86d41e556aee66a660bdbcd"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S07/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "5f1a48b6fd7d8fa489a365fed491fcbc941aaa4dbb388a3fab69603af0bad4cf"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S07/mapper.pt",
+          "bytes": 43033,
+          "sha256": "6b65aa250846875d23fc7686505ef17ce11a9fe6ddd4d7330259a181d2a75e2a"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S07/normalizers.pt",
+          "bytes": 115529,
+          "sha256": "a6304324e1edb65bedfd129403508d899f2eae0bd993c8080ce6a4a3b9a54566"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S07/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "8a5e4c7ff961fdeac5c146ee0c19a592408c4307b1da9fda0862f5c158c0146a"
+        }
+      ]
+    },
+    {
+      "dataset": "SEED-VII",
+      "training_direction": null,
+      "fold": "S08",
+      "seed": 2026,
+      "folder": "quick_start/weights/SEED-VII/seed2026/S08",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 233407,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S08/config.json",
+          "bytes": 2245,
+          "sha256": "6eb68fe94655a7a8566fa014dc1a6c7911646d07e03075952b132da9ecc52267"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S08/eeg_encoder.pt",
+          "bytes": 938303,
+          "sha256": "2f9b6d24642ff805683f5a703f41dba7eed7e094e34f83cee22e49231db47868"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S08/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "9c3f1af176457f83822a3e8de6f5d636408c27db9ead1efedd27ccbf36dbf3db"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S08/mapper.pt",
+          "bytes": 43033,
+          "sha256": "a52577ff39dd01e7d8ddb996aedcf28446c04c7cf1072071625ad393d116b1ea"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S08/normalizers.pt",
+          "bytes": 115529,
+          "sha256": "e831ad9203818aa6d1aecac7a8300f363d8b4aa86ec06055275db226c622c809"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S08/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "75cf1816a9ac4c913649e332e6dfe4afb1fcfd0e24e34c019c198286314b5180"
+        }
+      ]
+    },
+    {
+      "dataset": "SEED-VII",
+      "training_direction": null,
+      "fold": "S09",
+      "seed": 2026,
+      "folder": "quick_start/weights/SEED-VII/seed2026/S09",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 233407,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S09/config.json",
+          "bytes": 2245,
+          "sha256": "c317e5d1f951f8a60dce04b636260c37441eae28ea814724be544bc38baab5a2"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S09/eeg_encoder.pt",
+          "bytes": 938303,
+          "sha256": "5772079d3859bd05d3e16d2042d4615508ab4088922151fef72c2602bc64eab6"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S09/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "73c3699335a4014c407e9e650295c73b7dd9779317986a4aefdbfa8e82f3eb87"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S09/mapper.pt",
+          "bytes": 43033,
+          "sha256": "fb78c3017942e43b2e18aaa7a6114ff53e907d0f1e5e6ca25d01d5b02e1fd50d"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S09/normalizers.pt",
+          "bytes": 115529,
+          "sha256": "de493ad6da2504b7f468b18dfca6515306f48d1b1813e958a894f1b707191b5d"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S09/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "12008bfb48434ec1acea8cfd2b5c21b859ea89be9a8ad10bee1018d9b5662bef"
+        }
+      ]
+    },
+    {
+      "dataset": "SEED-VII",
+      "training_direction": null,
+      "fold": "S10",
+      "seed": 2026,
+      "folder": "quick_start/weights/SEED-VII/seed2026/S10",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 233407,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S10/config.json",
+          "bytes": 2245,
+          "sha256": "0a286dff9b6237a7458b1aa8ab23d46b8bf2b869754a5103d07fc7ca525bac2f"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S10/eeg_encoder.pt",
+          "bytes": 938303,
+          "sha256": "59a7e56b8ed8731e34552b54b0fc8c022f5d950b26035a026d67918512610fc2"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S10/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "9e3a410beb1b7f1fb556e5bf0ea3a8f6f1dfa026879121fcd63aee96b81cd242"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S10/mapper.pt",
+          "bytes": 43033,
+          "sha256": "e62920918cfff358601de66bd34171643524d7138c0fbfd07826df0d56669762"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S10/normalizers.pt",
+          "bytes": 115529,
+          "sha256": "202ea5330c7a56c6626547abcbb8148a67efc88c4ba402541fa198a1bfd7610f"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S10/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "a981176d94a7ec43c2535662e94600ce564c00f5fe6dd523c0079f298e2c77c1"
+        }
+      ]
+    },
+    {
+      "dataset": "SEED-VII",
+      "training_direction": null,
+      "fold": "S11",
+      "seed": 2026,
+      "folder": "quick_start/weights/SEED-VII/seed2026/S11",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 233407,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S11/config.json",
+          "bytes": 2245,
+          "sha256": "71cbda14adc98ca89fc71acb5aa0853b8b1900790e207408019d433325e58d56"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S11/eeg_encoder.pt",
+          "bytes": 938303,
+          "sha256": "f005a0350f8b8205f61e5fa4b067c8fda087ee844a3b00cfccc57d29d63052dd"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S11/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "484ed786b888a08d33912e16c517de2bf926111a9310b9cceb784a4799ef614b"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S11/mapper.pt",
+          "bytes": 43033,
+          "sha256": "30082b1e745ba74736b4039a77a74af9d172d6685d057a2460ac31387deab239"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S11/normalizers.pt",
+          "bytes": 115529,
+          "sha256": "2ffb5a3509800f4bf1d39f2db9c4dd5069cb46a0ebbe6d1dad5e5466be93dffa"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S11/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "2daa78c64db33755ec71712312080d4ac17958f3e9c9fe163d38b6da2b053026"
+        }
+      ]
+    },
+    {
+      "dataset": "SEED-VII",
+      "training_direction": null,
+      "fold": "S12",
+      "seed": 2026,
+      "folder": "quick_start/weights/SEED-VII/seed2026/S12",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 233407,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S12/config.json",
+          "bytes": 2245,
+          "sha256": "20d4c4d7acf607f39c4c55de9a735451cc514f8884a4c56392fe1e8a3f9ad0a0"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S12/eeg_encoder.pt",
+          "bytes": 938303,
+          "sha256": "f6ccaa692a99a99aba36f8923388a0aba9bab278f91b093e38f6d7b641e77567"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S12/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "72168dbc67617fdb6d3506bbe9d4256532a3300b588ab053cf5439966655795d"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S12/mapper.pt",
+          "bytes": 43033,
+          "sha256": "02ba470c3ce66e8ff7e8b613d511fca9d29f1582f4ea53d38949cd1e2b31ca3e"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S12/normalizers.pt",
+          "bytes": 115529,
+          "sha256": "4c31ade0602c5f7cc0628fec84761a332502998ae3569813eb5f5f20307202c0"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S12/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "5b2d00d9deda3281be1bd00adbc7715239fcbb575227d501df48b988c3a5e8a4"
+        }
+      ]
+    },
+    {
+      "dataset": "SEED-VII",
+      "training_direction": null,
+      "fold": "S13",
+      "seed": 2026,
+      "folder": "quick_start/weights/SEED-VII/seed2026/S13",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 233407,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S13/config.json",
+          "bytes": 2245,
+          "sha256": "409d8cda209e93fe61c21f7e039892ad1cd3355746a33ae09e820568abf37ad1"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S13/eeg_encoder.pt",
+          "bytes": 938303,
+          "sha256": "6eabcb2d9f953294eab248f231261348d4faea3b975bcc0eb61971c941b91486"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S13/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "c4178153a7c4410f0f83cd7352b167851e035f7caa741a0c6c84295c6860cd64"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S13/mapper.pt",
+          "bytes": 43033,
+          "sha256": "1077fd39242a946ec1aaf786e01dda34ca9d6b175b899ef3af06d8007f3f2dba"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S13/normalizers.pt",
+          "bytes": 115529,
+          "sha256": "9423254f2ce8127b6b3f46c680419037c643818608c706a186b0bb8c062ce3fc"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S13/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "4fb38277dba257cf5f70d39c655de2c69fa6491f4b640c2148c38700dd1fe6b1"
+        }
+      ]
+    },
+    {
+      "dataset": "SEED-VII",
+      "training_direction": null,
+      "fold": "S14",
+      "seed": 2026,
+      "folder": "quick_start/weights/SEED-VII/seed2026/S14",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 233407,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S14/config.json",
+          "bytes": 2245,
+          "sha256": "78bba7fb7e0af3aef1127b12361c7f00949277494e854d931c3f202be87a5367"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S14/eeg_encoder.pt",
+          "bytes": 938303,
+          "sha256": "832b220d983888cc68140fa1af00bc017b09bfa6b0477423581b924c28d7dd3d"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S14/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "df46b51a9d0fd269523aed5e6ba738faec465742e3295fe62cb5e1d5c3da7a10"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S14/mapper.pt",
+          "bytes": 43033,
+          "sha256": "60aee0b2eafec2043aa88ab383f1e6ddbbf8b55bcc5735a99216c01508a03b2a"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S14/normalizers.pt",
+          "bytes": 115529,
+          "sha256": "d52d2071eb05d7df3f01384a3db2d9f5e27d0274472ef19ff91dbbcaea7c701b"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S14/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "24d0c04600d7bab61a93f2cd58a78e7d0ed0eef8fbef2b763ed467e9875567cf"
+        }
+      ]
+    },
+    {
+      "dataset": "SEED-VII",
+      "training_direction": null,
+      "fold": "S15",
+      "seed": 2026,
+      "folder": "quick_start/weights/SEED-VII/seed2026/S15",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 233407,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S15/config.json",
+          "bytes": 2245,
+          "sha256": "57c1703e0191b79cc29455f31edbdc036037161871b3fb5a4731b08d01389cf1"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S15/eeg_encoder.pt",
+          "bytes": 938303,
+          "sha256": "ead9bf338e9f2a0ede5479943c588fb7e7663797781e2e624b0c2d9e55e6d44a"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S15/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "7924aafc8400e3503613ac5cbd30274948df83f33624e94c744b264325495e09"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S15/mapper.pt",
+          "bytes": 43033,
+          "sha256": "0e74d6dc66e6d05ce17f6e4f42df59e25a64846c3b0e766e56741f65313ca656"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S15/normalizers.pt",
+          "bytes": 115529,
+          "sha256": "940003cef4d4136f14cbf863d0cb8de6785331644946dc63ac1d51b713df89a3"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S15/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "1da2fd976f812237987b20620e7c301ace371ee41a1df6e27b37fffbe3a72dc1"
+        }
+      ]
+    },
+    {
+      "dataset": "SEED-VII",
+      "training_direction": null,
+      "fold": "S16",
+      "seed": 2026,
+      "folder": "quick_start/weights/SEED-VII/seed2026/S16",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 233407,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S16/config.json",
+          "bytes": 2245,
+          "sha256": "5c914a85331cac8a4ed728731707b8a50bb7e22d498ac98bcfe79f06285cb327"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S16/eeg_encoder.pt",
+          "bytes": 938303,
+          "sha256": "e85f1bccc4339afdd982c40f3dd946bdf845cc4ec9b8c1e9441ae0945937ce6c"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S16/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "c11e61689e30a34139f2948ca55cb0089a001f62637b76230e8cec046e507fb6"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S16/mapper.pt",
+          "bytes": 43033,
+          "sha256": "0c55edfd83c1e66f20409b58bfd3e739d7765b8ffb690183c2ea1e6898aa0398"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S16/normalizers.pt",
+          "bytes": 115529,
+          "sha256": "572b91c45bf00c3d8525f9d2a88c8db09300e5393bcccd55dc292b6b7497cc60"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S16/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "134b5964e6db9fb3ce42f8764747143f5f3034bdac7c886629f0b07189687077"
+        }
+      ]
+    },
+    {
+      "dataset": "SEED-VII",
+      "training_direction": null,
+      "fold": "S17",
+      "seed": 2026,
+      "folder": "quick_start/weights/SEED-VII/seed2026/S17",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 233407,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S17/config.json",
+          "bytes": 2245,
+          "sha256": "1d2e50b60e687ef1b837a6be13e1cc573e7117e3b13d3f184aead69202cece23"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S17/eeg_encoder.pt",
+          "bytes": 938303,
+          "sha256": "ae2897712c7e02b8507e8308e9b77b9fe824ec96ac56346f3a111a45982fa54b"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S17/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "c8c6a89283f03c8e76f4ccc75099e578629799cc032a06bb054d8290c5c66562"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S17/mapper.pt",
+          "bytes": 43033,
+          "sha256": "67a8d85479c733f09371a06188f71a640aaa7446883e97d6f5d12fb0f8d498e8"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S17/normalizers.pt",
+          "bytes": 115529,
+          "sha256": "0f9e53b2db66450321f19f22e92a1082145f1e0757bc198208f822e8be027b8c"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S17/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "e73caba1b53f357f03b8639337eeb46a3bfa05a1b72ee3d80613081685db325c"
+        }
+      ]
+    },
+    {
+      "dataset": "SEED-VII",
+      "training_direction": null,
+      "fold": "S18",
+      "seed": 2026,
+      "folder": "quick_start/weights/SEED-VII/seed2026/S18",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 233407,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S18/config.json",
+          "bytes": 2245,
+          "sha256": "5588fff798933c0b4ea0ffd3f00cc8d2feb7d48e625ecf08fdbfbb3f5550dc68"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S18/eeg_encoder.pt",
+          "bytes": 938303,
+          "sha256": "4e054d1b90cae90ee0962f932cdf6d3d2e21d457e4c1815d0a2224146034ab47"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S18/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "bb0777f259d78bf3381ea741fccb532b26d024700cc277007e5710f1d915b367"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S18/mapper.pt",
+          "bytes": 43033,
+          "sha256": "dae9d806dd86a382b5ea47e341bdaa5329f7551a060d13ba8ca7b6d7a4b53b6a"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S18/normalizers.pt",
+          "bytes": 115529,
+          "sha256": "0902c09e1a32d34466b313e38f5a0c876c1faab88907be5b8c8aa1f7b701e41c"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S18/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "a20e38845c21ab26263c7f0ffc677f8f241f76527910cc4f7f77341ea79040a2"
+        }
+      ]
+    },
+    {
+      "dataset": "SEED-VII",
+      "training_direction": null,
+      "fold": "S19",
+      "seed": 2026,
+      "folder": "quick_start/weights/SEED-VII/seed2026/S19",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 233407,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S19/config.json",
+          "bytes": 2245,
+          "sha256": "90098cb655a64d9a60dbf56e515702e7af12713b3e197b1e52ffa215558087a5"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S19/eeg_encoder.pt",
+          "bytes": 938303,
+          "sha256": "8bcaa8a447f7c2af6efda8466f07ee94cfa0a011a989ab3bdd7c9d134d57f8be"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S19/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "ea83ef164076fe4406062e7a9d6ddd1c00ab2ba92e5d7ec1161a3cc9d30a39db"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S19/mapper.pt",
+          "bytes": 43033,
+          "sha256": "322785b3286e97fd4f4613a81c9a5bc24ef14d34aef11b479793a324a5dc96da"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S19/normalizers.pt",
+          "bytes": 115529,
+          "sha256": "e791fc49a3c66adc5e11a59597f50a2ead9f822a865ebbc246bd67e24907563b"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S19/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "cb7c2d17837b66da737a37beb91f62121d9201e5c0cb6625b258874b232c533d"
+        }
+      ]
+    },
+    {
+      "dataset": "SEED-VII",
+      "training_direction": null,
+      "fold": "S20",
+      "seed": 2026,
+      "folder": "quick_start/weights/SEED-VII/seed2026/S20",
+      "calibration_strength": 0.9,
+      "parameter_counts": {
+        "eeg_encoder": 233407,
+        "eog_encoder": 64807,
+        "mapper": 7273,
+        "qjm_head": 7252
+      },
+      "files": [
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S20/config.json",
+          "bytes": 2245,
+          "sha256": "642311f6a80cb0c0bd8678af76a1e7fcbae0e142924c9dae27000f3bbc7fcea7"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S20/eeg_encoder.pt",
+          "bytes": 938303,
+          "sha256": "f5d07205bac6137fdb726685a1ee88b4499246a6a3d7bb7c676c6ebb8c929c06"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S20/eog_encoder.pt",
+          "bytes": 278005,
+          "sha256": "e7518bb25d9424acdc34500ba8cb3932aef6e180081a0853973469b8a61fc5ff"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S20/mapper.pt",
+          "bytes": 43033,
+          "sha256": "3aa8b0638648aa6c129a22f0ee4bc320952e5c4dbc0bc8f4e3b5d36ef1bc6bfa"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S20/normalizers.pt",
+          "bytes": 115529,
+          "sha256": "6a10b367ef5bf5dff3891eef108ece8e29b2b21e0440dba72f93ad1343cb26d1"
+        },
+        {
+          "file": "quick_start/weights/SEED-VII/seed2026/S20/qjm_head.pt",
+          "bytes": 35050,
+          "sha256": "cb792b03961e03143fa17497725d7cfc72d5c869512a9aa12931f7da305314e9"
+        }
+      ]
+    }
+  ]
+}
