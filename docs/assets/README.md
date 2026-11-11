@@ -3,12 +3,15 @@
 | 文件 | 用途 |
 |---|---|
 | `deepseek.png` | 用户提供的首页插画原图 |
-| `qjm-banner.png` | README 横幅，1600 × 560，完整保留原图主体 |
+| `qjm-banner.png` | README 横幅，2400 × 900，白底淡樱花、英文全称与放大的人物插画 |
+| `qjm-banner.svg` | 同版可编辑横幅，文字和图标为矢量，人物插画内嵌 |
 | `big-fish.png` | README 底部折叠彩蛋的原图 |
 | `social-preview.png` | 大肥鱼分享封面，1280 × 640，小于 1 MB |
-| `badges/` | README 的五个本地 SVG 徽章，无需外部徽章服务 |
+| `badges/` | 横幅所用的五个黑色 SVG 图标，无需外部徽章服务 |
 
-Python 与 PyTorch 徽章标注当前运行版本下限。Qiskit 与天衍量子真机徽章为平台标识；本仓库导出的推理接口使用 PyTorch，不需要安装 Qiskit 或连接真机。
+五个图标已直接排入横幅，README 下方不再重复显示旧的文字徽章。Python、PyTorch 和 Qiskit 图标来自 Simple Icons v13（CC0）；来源与许可见 [图标说明](icon-sources.md)。Tianyan 使用通用原子示意图，不是平台官方 Logo；Models 使用通用立方体图标。
+
+Qiskit 与天衍量子真机图标为平台标识；本仓库导出的推理接口使用 PyTorch，不需要安装 Qiskit 或连接真机。Python 与 PyTorch 的实际版本下限见根目录安装配置。
 
 ## 设置 GitHub 分享预览图
 
