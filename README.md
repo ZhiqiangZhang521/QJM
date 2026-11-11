@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/qjm-banner.png" alt="Quantum Joint Measurement — Multimodal Emotion Recognition；白底樱花横幅，含 Python、PyTorch、Qiskit、Tianyan 与 Models 矢量图标" width="100%">
+  <img src="docs/assets/qjm-banner.png" alt="Quantum Joint Measurement — Multimodal Emotion Recognition" width="100%">
 </p>
 
 # QJM：EEG 与眼电／眼动的量子融合情绪识别
