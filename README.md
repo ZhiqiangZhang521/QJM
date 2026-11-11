@@ -1,3 +1,15 @@
+<p align="center">
+  <img src="docs/assets/qjm-banner.png" alt="QJM：EEG 与眼电／眼动的量子融合情绪识别，搭配 deepseek 插画" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://www.python.org/"><img src="docs/assets/badges/python.svg" alt="Python ≥ 3.10" height="28"></a>
+  <a href="https://pytorch.org/"><img src="docs/assets/badges/pytorch.svg" alt="PyTorch ≥ 2.1" height="28"></a>
+  <a href="https://www.ibm.com/quantum/qiskit"><img src="docs/assets/badges/qiskit.svg" alt="Qiskit：Quantum SDK" height="28"></a>
+  <img src="docs/assets/badges/tianyan.svg" alt="天衍量子真机：Quantum Hardware" height="28">
+  <a href="docs/parameters.md"><img src="docs/assets/badges/models.svg" alt="模型参数：44 折，Seed 2026" height="28"></a>
+</p>
+
 # QJM：EEG 与眼电／眼动的量子融合情绪识别
 
 QJM 将 EEG 多尺度响应、EEGPT 上下文和眼电／眼动特征映射到六量子比特电路，通过模态内与跨模态交互完成七类情绪识别。电路采用 PyTorch 复数状态向量实现，可在 CPU 或 CUDA 上运行。
