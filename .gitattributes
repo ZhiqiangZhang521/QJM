@@ -1,0 +1,4 @@
+# Keep source text consistent across platforms.
+* text=auto eol=lf
+*.pt binary
+*.safetensors binary
